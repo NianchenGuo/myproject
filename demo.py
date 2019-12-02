@@ -6,14 +6,14 @@
 '''
  
 x = 6
- 
+
+
 def printFuc():
     y = 8
     z = 9
     print(y + z)
     print(x)  # 函数内部可以调用局部变量
- 
+
+
 printFuc()
 # print(y)  提示y没有定义，这个地方调用局部变量会报错
-
-	
