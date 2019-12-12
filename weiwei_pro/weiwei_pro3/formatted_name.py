@@ -10,7 +10,7 @@ def get_formatted_name(first_name, last_name):
     """
     返回简洁的姓名
     """
-    full_name = first_name + " " + last_name
+    full_name = first_name + "" + last_name
     return full_name.title()
 
 
@@ -30,4 +30,3 @@ def get_formatted_names(first_name, last_name, middle_name=""):
 
 
 musician = get_formatted_names("jimi", "hendrix")
-print(musician)

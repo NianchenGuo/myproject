@@ -6,7 +6,13 @@
 """
 
 
-def get_formated_name(first, last):
+def get_formatted_name(first, last, middle=""):
     """ Generate a neatly formatted full name """
-    full_name = first + " " + last
+    if middle:
+        full_name = first + " " + middle + " " + last
+    else:
+        full_name = first + " " + last
+
     return full_name.title()
+
+
